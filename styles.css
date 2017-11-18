@@ -1,0 +1,108 @@
+body {
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: 'Montserrat', 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #818181;
+    margin: 0;
+    font-weight: 200;
+}
+
+h2 {
+  text-align: left;
+  border-bottom: 4px dotted;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+h2:first-child{
+  margin-top: 0;
+}
+
+h3 {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid;
+    color: #b4b4b4;
+}
+
+.sidewidget {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2em;
+    text-align: center;
+    padding: 1em 0;
+    border-top: 1px solid;
+    color: #c63639;
+    margin-top: 2em;
+}
+
+.sidewidget a {
+    display: inline-block;
+    color: #c63639;
+    margin-top: 1em;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.leftside {
+    width: 30vw;
+}
+
+.leftside {
+    width: 70vw;
+    padding: 2em;
+}
+
+.lightpart {
+    border-radius: 0 2em 2em;
+    padding: 2em;
+    margin: 2em;
+    background: #eeeeee;
+    color: #1f1f1f;
+}
+
+.avatar {
+    width: 100%;
+    max-width: 30vw;
+    margin-bottom: 2em;
+}
+
+.slogan {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2em;
+}
+
+.field > .label {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: .8em;
+  margin-right: 1em;
+  width: 10em;
+}
+
+.field > .data {
+
+}
+
+.label:after {
+  /* content: ':'; */
+}
+
+.field {
+  display: flex;
+  margin-bottom: 0.5em;
+}
