@@ -238,3 +238,23 @@ article {
     max-width: 100%;
     border-radius: 4px 4px 0 0;
 }
+
+.menu {
+    padding: 0 2em;
+    margin: 2em 0 0;
+}
+
+.menu .menu-item {
+    padding: 0.4em 1.6em;
+    background: #c63639;
+    color: #fff;
+    margin-right: 1em;
+    text-decoration: none;
+    border-radius: 0.4em;
+    opacity: 0.6;
+    font-size: 0.9em;
+}
+
+.menu .menu-item:hover {
+    opacity: 1;
+}
