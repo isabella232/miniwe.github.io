@@ -5,9 +5,9 @@
 body {
     background-color: #1f1f1f;
     color: #fff;
-    font-family: 'Montserrat', 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
     line-height: 1.63;
+    font-size: 16px;
 }
 
 h1,

@@ -1,1 +1,3 @@
-console.log('here');
+// $(function() {
+//   $('.ui.modal').modal('show');
+// });
