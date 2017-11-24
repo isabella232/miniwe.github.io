@@ -7,6 +7,7 @@ body {
     color: #fff;
     font-family: 'Montserrat', 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
+    line-height: 1.63;
 }
 
 h1,
@@ -60,7 +61,6 @@ h3 {
     display: flex;
     height: 100vh;
 }
-
 
 .leftside {
     max-width: 60vw;
@@ -151,24 +151,24 @@ h3 {
     margin: 0 0 20px 0;
 }
 
-.col {
-    background: #c63639;
-    color: #fff;
-    padding: 20px;
+.flex-grid>.col {}
+
+.flex-grid>.col>.caption {
+    color: #c63639;
+    font-weight: 600;
 }
 
 .list-details {
     font-size: 0.8em;
 }
 
-.list-details > span {
+.list-details>span {
     display: inline-block;
     margin-left: .2em;
     padding: .1em .3em;
     border-radius: .3em;
     background: rgba(0, 0, 0, .2);
 }
-
 
 .hidden {
     display: none;
@@ -179,3 +179,62 @@ article {
     padding-bottom: 1em;
 }
 
+.projects-list {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.projects-list .project-item {
+    flex: 1 200px;
+    margin: 1%;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.projects-list .project-item .caption {
+    color: #c63639;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5em .5em 0;
+}
+
+.projects-list .project-item .caption a {
+    text-decoration: none;
+    color: #c63639;
+}
+
+.projects-list .project-item .caption a:hover {
+    text-decoration: underline;
+}
+
+.projects-list .project-item .tech {}
+
+.projects-list .project-item .tech .tech-item {
+    display: inline-block;
+    margin-left: .2em;
+    padding: .1em .3em;
+    border-radius: .3em;
+    background-color: #c63639;
+    color: #fff;
+}
+
+.projects-list .project-item .description,
+.projects-list .project-item .extra {
+    font-size: 0.8em;
+    padding: 0.5em .8em .2em;
+}
+
+.projects-list .project-item .extra {
+    color: #999;
+    border-top: 1px solid #ccc;
+}
+
+.projects-list .project-item .img-container img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 4px 4px 0 0;
+}
