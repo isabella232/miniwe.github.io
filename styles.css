@@ -8,6 +8,7 @@ body {
     font-weight: 400;
     line-height: 1.63;
     font-size: 16px;
+    overflow: visible !important;
 }
 
 h1,
@@ -186,12 +187,36 @@ article {
     width: 100%;
 }
 
+.projects-list .project-item .full-description, .projects-list .project-item .gist-list {
+    display: none;
+}
+
 .projects-list .project-item {
     flex: 1 200px;
     margin: 1%;
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: background .2s ease 0.05s;
+    -moz-transition: background .2s ease 0.05s;
+    transition: background .2s ease 0.05s;
+}
+
+.projects-list .project-item img {
+    -webkit-transition: all .2s ease 0.05s;
+    -moz-transition: all .2s ease 0.05s;
+    transition: all .2s ease 0.05s;
+}
+
+.projects-list .project-item:hover {
+    background: #eee;
+}
+
+.projects-list .project-item:hover img {
+    border-radius: 4px !important;
+    transform: scale(1.05);
+    background: #eee;
 }
 
 .projects-list .project-item .caption {
@@ -257,4 +282,8 @@ article {
 
 .menu .menu-item:hover {
     opacity: 1;
+}
+
+.ui.modal .content {
+    color: #1f1f1f;
 }

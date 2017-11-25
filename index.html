@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper" data-target="ava">
     <div class="leftside">
       <img class="avatar" src="img/ava.png" alt="" />
       <h1>Vitaly Dryukov</h1>
@@ -20,7 +20,7 @@
       <div class="sidewidget">
         <a>Skype: miniwe78</a>
         <a href="https://github.com/Miniwe" target="_blank">https://github.com/Miniwe</a>
-        <a href="mailto:miniwe@mail.ru">miniwe@mail.ru</a>
+        <a href="mailto:miniwe@mail.ru">miniwe@mail.ru</a data-target="slogan">
       </div>
       <img class="slogan" src="img/slogan.png" alt="" />
     </div>
@@ -38,7 +38,8 @@
             <div class="label">
             </div>
             <div class="data">
-                Posses more than 10 years of professional experience as web developer. Experienced in frontend programming, Fullstack JS and PHP programming, databases, web-development, markup.
+              Posses more than 10 years of professional experience as web developer. Experienced in frontend programming, Fullstack JS
+              and PHP programming, databases, web-development, markup.
             </div>
           </div>
           <div class="field">
@@ -157,9 +158,7 @@
                   <span>Backbone</span>
                   <span>HighCharts</span>
                   <span>d3js</span>
-                </span>,
-                BEM,
-                HTML
+                </span>, BEM, HTML
                 <span class="list-details">
                   <span>Handlebars
                   </span>
@@ -217,7 +216,7 @@
               English
             </div>
             <div class="data">
-               Pre-Intermediate speaking, Intermediate reading
+              Pre-Intermediate speaking, Intermediate reading
             </div>
           </div>
           <div class="field">
@@ -234,7 +233,7 @@
             Projects
           </h2>
           <div class="projects-list">
-            <div class="project-item">
+            <div class="project-item" data-target="ecf">
               <div class="img-container">
                 <img src="img/ecf.png" alt="Ecf Digital" />
               </div>
@@ -242,7 +241,7 @@
                 <a href="https://ecf.digital/" target="_blank">Ecf Digital</a>
               </div>
               <div class="description">
-                 High liquid crypto tokens hedged by real estate
+                High liquid crypto tokens hedged by real estate
                 <div class="tech">
                   <div class="tech-item">Meteor</div>
                   <div class="tech-item">Bootstrap</div>
@@ -251,8 +250,15 @@
               <div class="extra">
                 Programming
               </div>
+              <div class="full-description">
+                Full Ecf Description
+              </div>
+              <div class="gist-list">
+                <div class="gist-item" data-id="111">Gist Title 1</div>
+                <div class="gist-item" data-id="222">Gist Title 2</div>
+              </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-target="homepie">
               <div class="img-container">
                 <img src="img/homepie.png" alt="App Homepie.co" />
               </div>
@@ -260,7 +266,7 @@
                 <a href="http://app.homepie.co/" target="_blank">App Homepie.co</a>
               </div>
               <div class="description">
-                 Start to do your remodeling project right now!
+                Start to do your remodeling project right now!
                 <div class="tech">
                   <div class="tech-item">Meteor</div>
                   <div class="tech-item">React</div>
@@ -271,7 +277,7 @@
                 Programming, Application Ideologist
               </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-target="caspian">
               <div class="img-container">
                 <img src="img/caspian.png" alt="Caspian Travel Agency" />
               </div>
@@ -279,7 +285,7 @@
                 <a href="http://caspiantravel.us/" target="_blank">Caspian Travel Agency</a>
               </div>
               <div class="description">
-                 Your Travel Agency located in Brooklyn New York
+                Your Travel Agency located in Brooklyn New York
                 <div class="tech">
                   <div class="tech-item">PHP</div>
                   <div class="tech-item">Bootstrap</div>
@@ -290,7 +296,7 @@
                 Programming, Design
               </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-target="reddvl">
               <div class="img-container">
                 <img src="img/reddvl.png" alt="RedDVL" />
               </div>
@@ -298,7 +304,7 @@
                 <a href="https://reddevol.com" target="_blank">RedDVL</a>
               </div>
               <div class="description">
-                 Private Blog
+                Private Blog
                 <div class="tech">
                   <div class="tech-item">PHP</div>
                   <div class="tech-item">Semantic UI</div>
@@ -309,7 +315,7 @@
                 Programming, Design
               </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-target="ttolk">
               <div class="img-container">
                 <img src="img/ttolk.png" alt="Блог Толкователя" />
               </div>
@@ -317,7 +323,7 @@
                 <a href="http://ttolk.ru/" target="_blank">TTolk Blog</a>
               </div>
               <div class="description">
-                 Talk of thoughts, facts and judgments
+                Talk of thoughts, facts and judgments
                 <div class="tech">
                   <div class="tech-item">PHP</div>
                   <div class="tech-item">Wordpress Theme</div>
@@ -327,7 +333,7 @@
                 Programming
               </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-target="followup">
               <div class="img-container">
                 <img src="img/followup.png" alt="Followup App" />
               </div>
@@ -335,7 +341,7 @@
                 <a href="https://followupapp.ca/" target="_blank">Followup App</a>
               </div>
               <div class="description">
-                 An evidence based EMR
+                An evidence based EMR
                 <div class="tech">
                   <div class="tech-item">Meteor</div>
                   <div class="tech-item">Semantic UI</div>
@@ -345,7 +351,7 @@
                 Programming
               </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-target="skailink">
               <div class="img-container">
                 <img src="img/skailink.png" alt="Skailink" />
               </div>
@@ -353,7 +359,7 @@
                 <a href="https://skailink.com/" target="_blank">Skailink</a>
               </div>
               <div class="description">
-                 Linking Candidates and Recruiters
+                Linking Candidates and Recruiters
                 <div class="tech">
                   <div class="tech-item">Meteor</div>
                   <div class="tech-item">Semantic UI</div>
@@ -363,7 +369,7 @@
                 Programming, Design
               </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-target="hiedu">
               <div class="img-container">
                 <img src="img/hiedu.png" alt="HiEdu" />
               </div>
@@ -371,7 +377,7 @@
                 <a href="https://postsovhighered.herokuapp.com/" target="_blank">HiEdu</a>
               </div>
               <div class="description">
-                 Changes in Post-Soviet Higher Education Systems
+                Changes in Post-Soviet Higher Education Systems
                 <div class="tech">
                   <div class="tech-item">NodeJS</div>
                   <div class="tech-item">Express</div>
@@ -436,8 +442,8 @@
               06/2007 - 09/2009
             </div>
             <div class="data">
-              AdLabs, www.adlabs.ru, Web programmer. SIte programming: www.verto.ru , www.nevkusno.ru, www.intalia.ru,
-              www.rusjeweller.ru, www.seneschal.ru, www.liteway.ru, www.bigmash.ru
+              AdLabs, www.adlabs.ru, Web programmer. SIte programming: www.verto.ru , www.nevkusno.ru, www.intalia.ru, www.rusjeweller.ru,
+              www.seneschal.ru, www.liteway.ru, www.bigmash.ru
             </div>
           </div>
           <div class="field">
@@ -445,8 +451,8 @@
               08/2004 - 11/2006
             </div>
             <div class="data">
-              RBC, www.rbc.ru, Web programmer. Site developing: www.pogoda.rbc.ru,
-              forum.top.rbc.ru, www.photofile.ru. Support and Programming forum.rbc.ru
+              RBC, www.rbc.ru, Web programmer. Site developing: www.pogoda.rbc.ru, forum.top.rbc.ru, www.photofile.ru. Support and Programming
+              forum.rbc.ru
             </div>
           </div>
           <div class="field">
@@ -488,19 +494,24 @@
               Cources
             </div>
             <div class="data">
-               Codeschool: <a href="https://www.codeschool.com/users/Miniwe" target="_blank">https://www.codeschool.com/users/Miniwe</a>
+              Codeschool:
+              <a href="https://www.codeschool.com/users/Miniwe" target="_blank">https://www.codeschool.com/users/Miniwe</a>
             </div>
           </div>
         </article>
       </div>
     </div>
   </div>
-<div class="ui modal">
-  <div class="header">Header</div>
-</div>
+  <div class="ui modal">
+    <div class="header">modal header</div>
+    <div class="content">
+      <div class="full-description">modal full description</div>
+      <div class="gists">gists data</div>
+    </div>
+  </div>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"></script>
   <script src="semantic.min.js"></script>
   <script src="scripts.js"></script>
 </body>
