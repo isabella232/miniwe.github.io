@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SNAKE</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js"></script>
+    <script defer>
+        const snakeGame = new SnakeGame()
+    </script>
+</head>
+<body>
+    <div id="game">
+        <div id="arena">
+        </div>
+        <div id="stats">
+            <button onclick="snakeGame.start()">Start</button>
+            <button onclick="snakeGame.end()">End</button>
+            <div class="label">Position:
+                <div id="s_position"></div>
+            </div>
+            <div class="label">Direction:
+                <div id="s_direction"></div>
+            </div>
+            <div class="label">Length:
+                <div id="s_counter"></div>
+            </div>
+            <div class="label">Interval:
+                <div id="s_interval"></div>
+            </div>
+        </div>
+        <div class="message">
+            <div id="s_message"></div>
+        </div>
+    </div>
+    </body>
+</html>
